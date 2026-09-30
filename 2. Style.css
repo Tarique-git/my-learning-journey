@@ -1,0 +1,97 @@
+
+      *{
+  padding:0px;
+  
+  box-sizing: border-box;
+}
+header{
+   
+  border: 2px solid black;
+  width: 100%;
+ }
+img{
+  max-width: 100%;
+  height:auto;
+  }
+nav a{
+  color:black;
+  margin:10px;
+  text-decoration:none;
+  flex-wrap: nowrap;   
+  }
+nav{
+  flex-shrink:0;
+  overflow-x:auto;
+  display: flex;
+  white-space: nowrap;
+
+}
+h1{
+  color: green;
+}
+body{
+  background-color: #36363626;
+}
+h2{
+  color:blue;
+  }
+p{
+  font-size:20px;
+  }
+.button{
+  width:150px;
+  height:30px;
+  font-size:18px;
+  border-radius:10px;
+  display:block;
+  margin:auto;
+  color: red;
+  background-color:hwb(184 52% 8% / 0.6588235294117647);
+  
+}
+a{
+  text-decoration: none;
+}
+.Card{
+  border: 2px solid #a9bdfd;
+  border-radius: 20px;
+  min-height: 300px;
+  width: 200px;
+  flex-shrink: 0;
+  background-color: #bbbfc3;
+  box-shadow: 3px 3px 3px 3px #a8f0e1;
+}
+.skills-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap:15px;
+  }
+.pbutton{
+  width:100px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  background-color:#eeffac;
+  color:black;
+  font-size:14px;
+  border-radius:20px;
+}
+
+  .projects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+}
+  
+      #Contact{
+        margin-top: 30px;
+        border:2px solid black;
+      }
+h3{
+  text-align: center;
+}
+.contactp{
+  color: hwb(0 15% 12%);
+  font-size: 18px;
+}
